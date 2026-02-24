@@ -79,6 +79,20 @@ Operational notes
 - The proxy worker is asynchronous and queue-based; requests may be deferred while the proxy is busy.
 - TLS proxy currently uses `setInsecure()` (no certificate verification).
 
+Docs preview
+------------
+
+Below are quick previews of UI and device images included in [images](docs/images):
+
+#### Homescreen
+![Homescreen preview](docs/images/homescreen.png)
+
+#### Slave List
+![Slave list preview](docs/images/slave-list.png)
+
+#### ESPCam preview
+![Camera preview](docs/images/cam-preview.png)
+
 Related repositories
 --------------------
 
