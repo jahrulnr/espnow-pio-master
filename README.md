@@ -84,3 +84,9 @@ platformio device monitor -e esp32-s3-devkitc1-n16r8 --port /dev/ttyACM0
 - WiFi STA dan ESP-NOW berjalan bersamaan di channel yang sama.
 - Proxy worker bersifat async + queue; request baru di-skip saat proxy busy.
 - TLS proxy saat ini memakai `setInsecure()` (tanpa verifikasi sertifikat penuh).
+
+## Related repositories
+
+- ESP-NOW Master (this repo): https://github.com/jahrulnr/espnow-pio-master.git
+- ESP-NOW Weather (slave/proxy client): https://github.com/jahrulnr/espnow-pio-weather.git
+- ESP-NOW Cam (camera slave): https://github.com/jahrulnr/espnow-pio-camera.git
