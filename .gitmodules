@@ -1,0 +1,6 @@
+[submodule "model/esp_sr"]
+	path = model/esp_sr
+	url = https://github.com/espressif/esp-sr/
+[submodule "external/mqttui"]
+	path = external/mqttui
+	url = https://github.com/terdia/mqttui/

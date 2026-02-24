@@ -1,0 +1,20 @@
+{
+  "name": "SimpleNTP",
+  "version": "1.0.0",
+  "description": "A simple and reliable NTP client library for ESP32",
+  "keywords": "time, ntp, esp32, arduino",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/SimpleNTP.git"
+  },
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["espressif32"]
+}
